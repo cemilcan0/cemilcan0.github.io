@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/footballer.css">
+</head>
+
+<body>
+    <!-- Top Heading Part Starts-->
+    <header>
+        <section class="top-header">
+            <!-- Top Navigation Starts -->
+            <nav>
+                <div class="menu-icon"><i class="fas fa-bars"></i></div>
+                <div class="nav-links">
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html#players">Players</a>
+                    <a href="../index.html#highlights">Highlights</a>
+                    <a href="../index.html#clubs">Clubs</a>
+                </div>
+                <span>
+                    <button class="link-button" id="loginButton"><i class="fas fa-sign-in-alt"></i> Login</button>
+                </span>
+            </nav>
+        </section>
+    </header>
+
+    <!-- Main Content Part Starts -->
+    <main>
+        <div class="footballer_img">
+            <img src="../images/players/player-1.png" alt="">
+            <div class="author">
+                <p>Cemil Can Şahin 01.01.2024 22:25</p>
+            </div>
+        </div>
+        <div>
+            <h1>Dušan Tadić</h1>
+            <p>Tadić spent his youth at hometown club AIK Bačka Topola and Vojvodina, eventually playing in the
+                 UEFA Europa League with the latter. After two seasons with Groningen he joined Twente in 2012, 
+                 where he earned a move to Southampton of the Premier League. After four years in England, he 
+                 returned to the Netherlands in 2018, when he joined Ajax. With the club, he went on to win three 
+                 Eredivisie and two KNVB Cup titles, the 2018–19 Eredivisie golden boot, and the 2020–21 Eredivisie 
+                 Player of the Season award. Tadić left Ajax with 105 goals and 112 assists in 241 matches, joining 
+                 Fenerbahçe in 2023.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <img src="../images/main/Logo.png" alt="">
+        </div>
+    </footer>
+
+    <!-- Login Popup Starts -->
+    <div class="popup" id="popup-1">
+        <div class="content">
+            <div class="close-btn" id="close-btn">&times;</div>
+            <h1>Log In</h1>
+            <p>Please fill in this form to log in.</p>
+            <form action="">
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <button type="submit" class="registerbtn">Log In</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../scripts/script.js"></script>
+</body>
+
+</html>
